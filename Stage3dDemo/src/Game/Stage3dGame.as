@@ -94,9 +94,11 @@ package Game
 			
 			//3D后备缓冲区的像素尺寸
 			context3D.configureBackBuffer(swfWidth,swfHeight,0,true);
-			
-			
-			
+						
+		}
+		
+		private function enterFrame(e:Event):void
+		{
 			
 		}
 		
